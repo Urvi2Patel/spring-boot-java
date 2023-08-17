@@ -21,7 +21,7 @@ cd banking-service
 Use Spring Initializr to bootstrap your Spring Boot project with Gradle, the Web, and Actuator dependencies:
 
 ```bash
-curl https://start.spring.io/starter.zip -o banking-service.zip -d type=gradle-project -d dependencies=web,actuator
+curl https://start.spring.io/starter.zip -o banking-service.zip -d  -d dependencies=web,actuator
 unzip banking-service.zip
 ```
 
